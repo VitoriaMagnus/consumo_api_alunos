@@ -1,0 +1,120 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "password": "123"
+        },
+        {
+            "id": 1,
+            "name": "Guilherme",
+            "email": "guilherme@gmail.com",
+            "password": "1234"
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "title": "Academia do flutter"
+        },
+        {
+            "id": 1,
+            "title": "Jornada Dart"
+        },
+        {
+            "id": 2,
+            "title": "Jornada GetX"
+        }
+    ],
+    "alunos":[
+        {
+            "id": 0,
+            "nome": "Vitória Magnus",
+            "idade": 26,
+            "nomeCursos": [
+                "Academia do Flutter",
+                "Jornada GetX",
+                "Jornada Clean Code"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Academia do Flutter",
+                    "isAluno": true
+                },
+                {
+                    "id": 2,
+                    "nome": "Jornada GetX",
+                    "isAluno": true
+                },
+                {
+                    "id": 3,
+                    "nome": "Jornada Clean Code",
+                    "isAluno": true
+                },
+                {
+                    "id": 4,
+                    "nome": "Jornada Arquitetura",
+                    "isAluno": false
+                }
+            ],
+            "endereco": {
+                "rua": "Rua X",
+                "numero": 200,
+                "CEP": "95560000",
+                "cidade":{
+                    "id": 1,
+                    "nome": "Torres"
+                },
+                "telefone":{
+                    "ddd": 51,
+                    "telefone": "996655874"
+                }
+            }
+        },
+        {
+            "id": 1,
+            "nome": "Rafaela Magnus",
+            "nomeCursos": [
+                "Academia do Flutter",
+                "Jornada Clean Code"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Academia do Flutter",
+                    "isAluno": true
+                },
+                {
+                    "id": 2,
+                    "nome": "Jornada GetX",
+                    "isAluno": false
+                },
+                {
+                    "id": 3,
+                    "nome": "Jornada Clean Code",
+                    "isAluno": true
+                },
+                {
+                    "id": 4,
+                    "nome": "Jornada Arquitetura",
+                    "isAluno": false
+                }
+            ],
+            "endereco": {
+                "rua": "Rua I",
+                "numero": 80,
+                "CEP": "95560000",
+                "cidade":{
+                    "id": 1,
+                    "nome": "Torres"
+                },
+                "telefone":{
+                    "ddd": 51,
+                    "telefone": "996742574"
+                }
+            }
+        }
+    ]
+}
