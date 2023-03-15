@@ -11,11 +11,11 @@ A Api foi desenvolvida junto com o package Json Rest Server desenvolvido pela pr
 
 
 * Interpretação de um Json.
-* TRaduzir arquivo Json para o Dart.
+* Traduzir arquivo Json para o Dart.
 * Serealização e Desserialização de modelos.
 * Padrão de projeto Repository.
 * Realizando busca de dados no backend.
-* Chamdno a busca e printando no log.
+* Chamando a busca e printando no log.
 
 
 **Funcionalidades desenvolvidas até o momento**
